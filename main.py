@@ -21,10 +21,10 @@ async def main():
     if args_download_data:
         await download_and_unzip_dataset()
     if args_preprocess_data:
-        await parse_dataset(args_preprocess_data)
+        await parse_dataset()
     if args_generate_yaml:
-        await generate_yaml(args_generate_yaml)
+        await generate_yaml()
     if args_train_model:
-        await train_model(args_train_model)
+        await train_model()
 
 asyncio.run(main())

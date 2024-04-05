@@ -12,7 +12,7 @@ from utils import tqdm_async, run_cmd_from, async_timer
 
 data_folder_name = "stanford_dog_dataset"
 dataset_url = "http://vision.stanford.edu/aditya86/ImageNetDogs"
-raw_dataset_path = f"data/{data_folder_name}/raw"
+raw_dataset_path = f"datasets/{data_folder_name}/raw"
 
 async def download_and_unzip_file(file_url, target_dir):
     # Step 1: Download file
@@ -110,9 +110,10 @@ def generate_class_labeling():
 def generate_yaml(idx: str = 'v1'):
     target_dir = f"data/{data_folder_name}/{idx}"
     class_labeling = generate_class_labeling()
+    class_labeling[0] = "None" # Dummy class for easier life
     data = {
         'train': target_dir + '/Training',
-        'test': target_dir + '/Testing',
+        'val': target_dir + '/Testing',
         'nc': len(class_labeling),
         'names': class_labeling
     }

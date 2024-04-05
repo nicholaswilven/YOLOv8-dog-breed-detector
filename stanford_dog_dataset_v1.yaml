@@ -1,4 +1,5 @@
 names:
+  0: None
   1: Chihuahua
   2: Japanese Spaniel
   3: Maltese Dog
@@ -119,6 +120,6 @@ names:
   118: Dingo
   119: Dhole
   120: African Hunting Dog
-nc: 120
-test: data/stanford_dog_dataset/v1/Testing
-train: data/stanford_dog_dataset/v1/Training
+nc: 121
+val: stanford_dog_dataset/v1/Testing
+train: stanford_dog_dataset/v1/Training
