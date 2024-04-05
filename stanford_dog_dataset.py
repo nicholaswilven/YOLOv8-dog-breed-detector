@@ -94,14 +94,6 @@ async def parse_dataset(idx: str = 'v1'):
     testing_metadata = loadmat(os.path.join(raw_dataset_path, 'test_list.mat'))
     await asyncio.gather(*[parse_and_copy_files(img_path, annot_path, label_classes, os.path.join(target_dir, "Testing")) for img_path, annot_path, label_classes in zip(chain.from_iterable(testing_metadata["file_list"]), chain.from_iterable(testing_metadata["annotation_list"]), testing_metadata["labels"])])
 
-# Example usage:
-async def main():
-    if not os.path.exists(raw_dataset_path):
-        await download_and_unzip_dataset()
-    await parse_dataset()
-
-asyncio.run(main())
-
 def get_dog_breed_name(filepath):
         match = re.search(r"-(.+?)/", filepath)
         if match:

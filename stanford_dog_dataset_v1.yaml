@@ -1,0 +1,124 @@
+names:
+  1: Chihuahua
+  2: Japanese Spaniel
+  3: Maltese Dog
+  4: Pekinese
+  5: Shih-Tzu
+  6: Blenheim Spaniel
+  7: Papillon
+  8: Toy Terrier
+  9: Rhodesian Ridgeback
+  10: Afghan Hound
+  11: Basset
+  12: Beagle
+  13: Bloodhound
+  14: Bluetick
+  15: Black-And-Tan Coonhound
+  16: Walker Hound
+  17: English Foxhound
+  18: Redbone
+  19: Borzoi
+  20: Irish Wolfhound
+  21: Italian Greyhound
+  22: Whippet
+  23: Ibizan Hound
+  24: Norwegian Elkhound
+  25: Otterhound
+  26: Saluki
+  27: Scottish Deerhound
+  28: Weimaraner
+  29: Staffordshire Bullterrier
+  30: American Staffordshire Terrier
+  31: Bedlington Terrier
+  32: Border Terrier
+  33: Kerry Blue Terrier
+  34: Irish Terrier
+  35: Norfolk Terrier
+  36: Norwich Terrier
+  37: Yorkshire Terrier
+  38: Wire-Haired Fox Terrier
+  39: Lakeland Terrier
+  40: Sealyham Terrier
+  41: Airedale
+  42: Cairn
+  43: Australian Terrier
+  44: Dandie Dinmont
+  45: Boston Bull
+  46: Miniature Schnauzer
+  47: Giant Schnauzer
+  48: Standard Schnauzer
+  49: Scotch Terrier
+  50: Tibetan Terrier
+  51: Silky Terrier
+  52: Soft-Coated Wheaten Terrier
+  53: West Highland White Terrier
+  54: Lhasa
+  55: Flat-Coated Retriever
+  56: Curly-Coated Retriever
+  57: Golden Retriever
+  58: Labrador Retriever
+  59: Chesapeake Bay Retriever
+  60: German Short-Haired Pointer
+  61: Vizsla
+  62: English Setter
+  63: Irish Setter
+  64: Gordon Setter
+  65: Brittany Spaniel
+  66: Clumber
+  67: English Springer
+  68: Welsh Springer Spaniel
+  69: Cocker Spaniel
+  70: Sussex Spaniel
+  71: Irish Water Spaniel
+  72: Kuvasz
+  73: Schipperke
+  74: Groenendael
+  75: Malinois
+  76: Briard
+  77: Kelpie
+  78: Komondor
+  79: Old English Sheepdog
+  80: Shetland Sheepdog
+  81: Collie
+  82: Border Collie
+  83: Bouvier Des Flandres
+  84: Rottweiler
+  85: German Shepherd
+  86: Doberman
+  87: Miniature Pinscher
+  88: Greater Swiss Mountain Dog
+  89: Bernese Mountain Dog
+  90: Appenzeller
+  91: Entlebucher
+  92: Boxer
+  93: Bull Mastiff
+  94: Tibetan Mastiff
+  95: French Bulldog
+  96: Great Dane
+  97: Saint Bernard
+  98: Eskimo Dog
+  99: Malamute
+  100: Siberian Husky
+  101: Affenpinscher
+  102: Basenji
+  103: Pug
+  104: Leonberg
+  105: Newfoundland
+  106: Great Pyrenees
+  107: Samoyed
+  108: Pomeranian
+  109: Chow
+  110: Keeshond
+  111: Brabancon Griffon
+  112: Pembroke
+  113: Cardigan
+  114: Toy Poodle
+  115: Miniature Poodle
+  116: Standard Poodle
+  117: Mexican Hairless
+  118: Dingo
+  119: Dhole
+  120: African Hunting Dog
+nc: 120
+test: data/stanford_dog_dataset/v1/Testing
+train: data/stanford_dog_dataset/v1/Training
