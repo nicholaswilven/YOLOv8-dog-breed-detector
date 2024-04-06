@@ -3,20 +3,16 @@ import cv2
 import os
 
 # Path to YOLOv5 model weights
-model_path = "runs/detect/train2/weights/best.pt"
-
+model_path = "runs/detect/train/weights/best.pt"
 # Input video file
-infer_filename = "gypsi anjing.mp4"
+infer_filename = "your_file.mp4"
 
 # Initialize YOLO model
 model = YOLO(model_path)
-
 # Path to input video
 video_path = "data/" + infer_filename
-
 # Path to output video
 output_video_path = "data/result/" + infer_filename
-
 # Open input video
 cap = cv2.VideoCapture(video_path)
 

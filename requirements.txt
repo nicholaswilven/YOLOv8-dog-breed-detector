@@ -1,0 +1,11 @@
+aiofiles==23.2.1
+asyncio==3.4.3
+decorator==5.1.1
+mat4py==0.6.0
+more-itertools==8.10.0
+numpy==1.26.4
+opencv-python==4.9.0.80
+pandas==2.2.1
+PyYAML==5.4.1
+tqdm==4.66.2
+ultralytics==8.1.43
