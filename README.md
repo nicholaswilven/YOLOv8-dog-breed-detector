@@ -16,7 +16,7 @@ Usage
 -----
 
 1.  **Clone the Repository**:
-    `git clone https://github.com/your_username/yolov8_dog_breed_detector.git`
+    `git clone https://github.com/nicholaswilven/YOLOv8-dog-breed-detector.git`
     
 2.  **Download Dataset**:
     `python main.py -dd`
